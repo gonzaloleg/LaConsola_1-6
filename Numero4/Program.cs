@@ -13,7 +13,7 @@ namespace Numero4
             string frase;
             do
             {
-                Console.WriteLine("Ingrese frase. Solo se sale con fin.");
+                Console.WriteLine("Ingrese frase. Solo se sale con 'fin'.");
                 frase = Console.ReadLine();
 
             } while (frase != "fin");
